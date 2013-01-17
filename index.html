@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Datepicker</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">body { font-family: sans-serif; margin: 5% 10%; }</style>
+    <link rel="stylesheet" href="/js/datepicker/build/build.min.css">
+    <script src="/js/datepicker/build/build.min.js"></script>
+  </head>
+  <body>
+    <h3>A demo of integrating a web component into a larger project.</h3>
+    <input id="datepicker" type="text" name="date" placeholder="Choose a date">
+    <script>
+       var picker = require('datepicker');
+       var el = document.getElementById('datepicker');
+       picker(el);
+    </script>
+  </body>
+</html>
